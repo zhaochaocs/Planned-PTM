@@ -97,8 +97,8 @@ CUDA_VISIBLE_DEVICES=${cuda_device} python src/training/decode_seq2seq.py \
 #### 3.2. Extract skeletons from output of the random model as predicted plans.
 ```shell script
 python src/data/create_plan.py --src_file dataset/commongen.test.src_new.txt \
-                                   --tgt_file  output/${exp_name}/best_model/Gen/model.best \
-                                   --plan_file dataset/commongen.test.src_new.txt.plan
+                               --tgt_file  output/${exp_name}/best_model/Gen/model.best \
+                               --plan_file dataset/commongen.test.src_new.txt.plan
 ```
 
 #### 3.3. Test on oracle model with the (predicted) planned input.
