@@ -116,19 +116,11 @@ CUDA_VISIBLE_DEVICES=${cuda_device} python src/training/decode_seq2seq.py \
 ### Citation 
 
 ```bibtex
-
-@inproceedings{zhao-etal-2022-revisiting,
-    title = "Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach",
-    author = "Zhao, Chao  and
-      Brahman, Faeze  and
-      Huang, Tenghao  and
-      Chaturvedi, Snigdha",
-    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2022",
-    month = jul,
-    year = "2022",
-    address = "Seattle, United States",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.findings-naacl.129",
-    pages = "1709--1718"
+@inproceedings{zhao2022revisiting,
+  title={Revisiting Generative Commonsense Reasoning: A Pre-Ordering Approach},
+  author={Zhao, Chao and Brahman, Faeze and Huang, Tenghao and Chaturvedi, Snigdha},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2022},
+  pages={1709--1718},
+  year={2022}
 }
 ```
